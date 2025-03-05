@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Output</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <div id="header">
+            <h1>Main Title</h1>
+            <a id="logo1" href="#"><img src="images/logo3.png" alt="Logo"></a>
+            <a id="toplink" href="#">Top Link</a>
+        </div>
+        <div id="content-wrapper">
+            <div id="main-content">
+                <h2><strong>Main Heading</strong></h2>
+                <div class="image-r"><img src="images/main.png" alt="Main Image"></div>
+            </div>
+            <div id="side-content">
+                Sidebar content here
+            </div>
+        </div>
+        <div id="footer">
+            Footer content here
+        </div>
+    </div>
+</body>
+</html>
 
