@@ -1,107 +1,43 @@
-/* Set background */
 body {
-    background-image: url("../Images/black.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+    background: url('black.jpg'), url('repeating.png');
+    background-size: cover, auto;
+    background-repeat: no-repeat, repeat;
+    background-blend-mode: overlay;
     font-family: Arial, sans-serif;
-}
-
-/* Page wrapper */
-#page-wrapper {
-    width: 960px;
-    margin: 20px auto;
-    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
-    border-radius: 12px 12px 0px 0px;
-    background-color: white;
-    overflow: hidden;
-}
-
-/* Header */
-#header {
-    position: relative;
-    background-color: #333;
-    padding: 20px 0;
-    text-align: center;
-    border-radius: 12px 12px 0px 0px;
-}
-
-#header h1 {
-    font-size: 3em;
-    font-family: 'Devonshire', cursive;
-    color: #E35335;
-}
-
-/* Navigation */
-#main-nav {
-    background: #444;
-    text-align: center;
-    padding: 10px 0;
-}
-
-#main-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#main-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-#main-nav ul li a {
     color: white;
-    padding: 10px 15px;
-    display: inline-block;
-    text-decoration: none;
 }
 
-#main-nav ul li a:hover {
-    background-color: #ccc;
-    color: #333;
-}
-
-/* Main content wrapper */
-#content-wrapper {
-    display: flex;
-    justify-content: space-between;
+.container {
+    width: 80%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    background-image: url("../Images/repeating.png");
-}
-
-/* Main content */
-#main-content {
-    width: 70%;
-    background: white;
-    padding: 20px;
-}
-
-/* Sidebar */
-#side-content {
-    width: 25%;
-    background: #f4f4f4;
-    padding: 10px;
     border-radius: 10px;
 }
 
-/* Image alignment */
-.image-r {
-    float: right;
-    border: 2px solid blue;
-    width: 300px;
-    padding: 5px;
-    background-color: white;
-    margin: 10px 0 10px 20px;
+.header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-/* Footer */
-#footer {
-    background-color: #777;
+.content {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
     text-align: center;
-    padding: 15px 0;
-    position: relative;
-    width: 100%;
-    bottom: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border-radius: 5px;
 }
